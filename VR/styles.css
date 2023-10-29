@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-border {
+    border-bottom: 1px solid #7b8794;
+}
+
+.vr-logo {
+    width: 70px;
+    height: 40px;
+}
+
+.vr-items-div {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.vr-background {
+    background-image: url("Images/vr-banner-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.vr-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vr-button {
+    color: white;
+    background-color: #1a2137;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+.padding-div {
+    padding-top: 70px;
+}
+
+.vr-mainheading {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto";
+}
+
+.vr-images {
+    width: 70px;
+    height: 70px;
+}
+
+.vr-heading {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+
+.vr-paragraph {
+    font-size: 18px;
+    color: #7b8794;
+}
+
+.vr-span {
+    font-weight: bold;
+    font-style: italic;
+    color: #1f2933;
+}
+
+.vr-kit-image {
+    width: 20vw;
+    height: 45vh;
+    margin-left: 10vw;
+}
+
+.vr-kit-image:first-child {
+    margin-left: 0px;
+}
+
+.vr-kit-image-heading {
+    color: #323f4b;
+    font-size: 18px;
+}
+
+.vr-optics-image {
+    width: 100%;
+    height: 50vh;
+}
+
+.vr-optics-heading {
+    color: #1f2933;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Roboto";
+}
+
+.vr-optics-paragraph {
+    color: #7b8794;
+    font-size: 24px;
+}
+
+.vr-optics-button {
+    color: #ffffff;
+    background-color: #1a2137;
+    height: 40px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.vr-products-image {
+    background-image: url("Images/vr-products-headset-img.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.vr-products-image-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.vr-products-image-paragraph {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.vr-products-image-button {
+    color: #ffffff;
+    height: 30px;
+    width: 95px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.vr-products-image1 {
+    background-image: url("Images/vr-products-headset-with-controllers-img.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.vr-products-button {
+    color: #ffffff;
+    background-color: #1754a1;
+    height: 35px;
+    width: 110px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.vr-trending-image {
+    width: 100%;
+}
+
+.vr-trending-image-heading {
+    color: #959ead;
+    font-size: 14px;
+}
+
+.vr-trending-image-paragraph {
+    font-size: 18px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.vr-trending-image-anchor {
+    color: #1754a1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vr-trending-button {
+    color: #ffffff;
+    background-color: #1754a1;
+    height: 40px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.vr-website-background {
+    background-color: #19232d;
+    background-size: cover;
+    height: auto;
+}
+
+.vr-website-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.vr-website-image {
+    width: 100%;
+}
+
+.vr-website-button {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ffffff;
+    background-color: transparent;
+    height: 35px;
+    width: 120px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.vr-footer-background {
+    background-color: #19232d;
+    background-size: cover;
+    height: 100vh;
+}
+
+.vr-footer-image {
+    width: 45px;
+    height: 30px;
+}
+
+.vr-footer-logo-align {
+    height: 40px;
+    width: 40px;
+    background-color: #959ead;
+    border-radius: 40px;
+}
+
+.vr-footer-logo {
+    color: #5a7184;
+}
+
+.vr-footer-paragraph {
+    color: #5a7184;
+    font-size: 14px;
+}
+
+.vr-footer-heading {
+    color: #5a7184;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vr-footer-line {
+    border-color: #5a7184;
+    width: 100%;
+    height: 5px;
+}
+
+.vr-footer-end {
+    color: #959ead;
+    font-size: 14px;
+}
