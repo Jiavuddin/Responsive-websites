@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-border {
+    border-bottom: 1px solid #9aa5b1;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 180px;
+}
+
+.navbar-color {
+    background-color: #0c0521;
+}
+
+.navbar-background-image {
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar-span {
+    color: #FFDDA9;
+}
+
+.navbar-paragraph {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.navbar-button {
+    background-color: #FFDDA9;
+    border-width: 0px;
+    border-radius: 25px;
+    height: 60px;
+    width: 180px;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.design-main-heading {
+    color: #183b56;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.design-section-image {
+    height: 42vh;
+    width: 70%;
+}
+
+.design-section-heading {
+    color: #323f4b;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.design-section-paragraph {
+    color: #7b8794;
+    font-size: 18px;
+}
+
+.design-tools-img {
+    height: 280px;
+    width: 100%;
+}
+
+.tools-section-heading {
+    color: #323f4b;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.tools-section-paragraph {
+    color: #7b8794;
+    font-size: 15px;
+}
+
+.features-section-heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.features-section-paragraph {
+    font-size: 15px;
+    color: #9aa5b1;
+}
+
+.features-section-icon {
+    height: 20vh;
+    width: 15vw;
+}
+
+.features-section-icon-heading {
+    font-size: 18px;
+}
+
+.features-section-icon-paragraph {
+    color: #7b8794;
+    font-size: 14px;
+}
+
+.logos-heading {
+    color: #323f4b;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.logos-logo {
+    height: 22px;
+    width: 70px;
+}
