@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-border {
+    border-bottom: 1px solid #7b8794;
+}
+
+.e-commerce-logo {
+    width: 150px;
+    height: 50px;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.ecom-main-heading {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto";
+}
+
+.services-section-paragraph {
+    font-size: 14px;
+    color: #7b8794;
+    font-weight: 500;
+}
+
+.services-section-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px 10px;
+}
+
+.services-section-card-image {
+    height: 70px;
+    width: 80px;
+    margin-bottom: 12px;
+}
+
+.services-section-card-heading {
+    color: #1f2933;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.products-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products-card {
+    height: 328px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.headphones-bg-container {
+    background-image: url("Images/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+
+.laptop-bg-container {
+    background-image: url("Images/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+
+.products-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.products-card-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.products-card-button {
+    color: #ff9f00;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 134px;
+    height: 48px;
+    border-width: 0;
+    border-radius: 100px;
+}
+
+.products-card-modal-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.products-card-modal-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.products-card-modal-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products-card-modal-list-item {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.products-card-modal-list-item-category {
+    font-weight: bold;
+}
+
+.products-section-link {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.offers-section-background {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+    background-size: cover;
+}
+
+.offers-section-image {
+    width: 250px;
+    height: 150px;
+}
+
+.offers-section-image-2 {
+    width: 300px;
+    height: 200px;
+}
+
+.offers-section-heading {
+    font-family: "Bree Serif";
+    font-size: 26px;
+    font-weight: 700;
+    color: #ad2167;
+}
+
+.offers-section-paragraph {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.offers-section-span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.offers-section-image-3 {
+    width: 200px;
+    height: 100px;
+}
+
+.blogs-section-heading {
+    color: #183b56;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.blogs-section-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.blogs-section-card-image {
+    width: 100%;
+}
+
+.blogs-section-card-heading {
+    color: #959ead;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.blogs-section-card-main-heading {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #183b56;
+}
+
+.blogs-section-card-paragraph {
+    color: #959ead;
+    font-size: 19px;
+    font-family: "Roboto";
+}
+
+.blogs-section-card-anchor-element {
+    color: #ff9f00;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.explore-section-background {
+    background-color: #f5f7fa;
+    background-size: cover;
+}
+
+.explore-section-heading {
+    color: #183b56;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.explore-section-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: min-content;
+}
+
+.explore-section-card-heading {
+    color: #183b56;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.explore-section-card-image {
+    height: 80px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.explore-section-card-text {
+    font-size: 12px;
+}
+
+.explore-section-card-anchor-element {
+    color: #ff9f00;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.explore-section-card-image-2 {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.contactus-section-background {
+    background-color: #f5f7fa;
+    background-size: cover;
+}
+
+.contactus-section-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #183b56;
+}
+
+.contactus-section-button {
+    color: #ff9f00;
+    border-style: solid;
+    border-color: #ff9f00;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+.footer-section-background {
+    background-color: #0d2436;
+    background-size: cover;
+}
+
+.footer-section-image {
+    height: 80px;
+    width: 200px;
+}
+
+.footer-section-icon-background {
+    background-color: #152c3e;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.footer-section-icon {
+    color: #5a7184;
+}
+
+.footer-section-paragraph {
+    color: #5a7184;
+    font-size: 15px;
+}
+
+.footer-section-column-heading {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-section-column-list {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-section-line {
+    width: 90vw;
+    border-color: #5a7184;
+    border-width: 2px;
+}
+
+.footer-section-paragraph-2 {
+    color: #5a7184;
+    font-size: 15px;
+}
