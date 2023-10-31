@@ -9,7 +9,7 @@ body {
 }
 
 .travel-background {
-    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    background-image: url("Images/travel-sm-bg.png");
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -71,7 +71,7 @@ body {
 @media (min-width: 768px) {
 
     .travel-background {
-        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+        background-image: url("Images/travel-md-bg.png");
         background-size: cover;
         min-height: 100vh;
         display: flex;
