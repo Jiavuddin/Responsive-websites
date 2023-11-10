@@ -111,8 +111,8 @@
     height: 48px;
     border-width: 0;
     border-radius: 100px;
-    cursor: pointer;
-    outline: none;
+    cursor: pointer !important;
+    outline: none !important;
 }
 
 .ecom-products-card-modal-h5 {
@@ -258,8 +258,8 @@
     border-color: #ff9f00;
     border-width: 2px;
     background-color: transparent;
-    cursor: pointer;
-    outline: none;
+    cursor: pointer !important;
+    outline: none !important;
 }
 
 .ecom-footer-bg {
