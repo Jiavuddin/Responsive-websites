@@ -176,6 +176,11 @@
     font-size: 16px;
 }
 
+.fm-iframe {
+    width: 100%;
+    height: 40vh;
+}
+
 .fm-pay-img {
     width: 270px;
 }
